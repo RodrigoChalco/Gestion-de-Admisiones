@@ -5,8 +5,13 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+/nbactions.xml
+/nb-configuration.xml
 
 # Archivos temporales
 *.tmp
+*.jar
 *.bak
 *~
+
+!/libs/*.jar

@@ -8,12 +8,12 @@ package principal;
  *
  * @author Pc
  */
-public class panelInscripcion extends javax.swing.JPanel {
+public class VentanaDocs extends javax.swing.JPanel {
 
     /**
-     * Creates new form EstadoIncripcion
+     * Creates new form VentanaDocs
      */
-    public panelInscripcion() {
+    public VentanaDocs() {
         initComponents();
     }
 
@@ -26,30 +26,19 @@ public class panelInscripcion extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        lblInscripcion = new javax.swing.JLabel();
-
-        lblInscripcion.setText("estado inscripción:");
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(38, 38, 38)
-                .addComponent(lblInscripcion)
-                .addContainerGap(263, Short.MAX_VALUE))
+            .addGap(0, 400, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(49, 49, 49)
-                .addComponent(lblInscripcion)
-                .addContainerGap(235, Short.MAX_VALUE))
+            .addGap(0, 300, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel lblInscripcion;
     // End of variables declaration//GEN-END:variables
 }

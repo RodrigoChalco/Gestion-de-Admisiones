@@ -8,12 +8,12 @@ package principal;
  *
  * @author Pc
  */
-public class panelDocumentos extends javax.swing.JPanel {
+public class VentanaEstado extends javax.swing.JPanel {
 
     /**
-     * Creates new form DocumentosCargados
+     * Creates new form VentanaEstado
      */
-    public panelDocumentos() {
+    public VentanaEstado() {
         initComponents();
     }
 
@@ -26,38 +26,19 @@ public class panelDocumentos extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        tblDocumentos = new javax.swing.JLabel();
-        progressDocumentos = new javax.swing.JLabel();
-
-        tblDocumentos.setText("documentos:");
-
-        progressDocumentos.setText("progreso:");
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(35, 35, 35)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(progressDocumentos)
-                    .addComponent(tblDocumentos))
-                .addContainerGap(295, Short.MAX_VALUE))
+            .addGap(0, 400, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(49, 49, 49)
-                .addComponent(tblDocumentos)
-                .addGap(38, 38, 38)
-                .addComponent(progressDocumentos)
-                .addContainerGap(181, Short.MAX_VALUE))
+            .addGap(0, 300, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel progressDocumentos;
-    private javax.swing.JLabel tblDocumentos;
     // End of variables declaration//GEN-END:variables
 }

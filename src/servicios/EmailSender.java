@@ -5,8 +5,8 @@ import java.util.Properties;
 
 public class EmailSender {
 
-    private final String remitente = "tucorreo@gmail.com"; 
-    private final String clave = "TU_CLAVE_DE_APLICACION"; 
+    private final String remitente = "ja448476@gmail.com"; 
+    private final String clave = "flsz xlck hmuz nrzl"; 
 
     public void enviarCorreo(String destinatario, String asunto, String cuerpo) {
         Properties props = new Properties();

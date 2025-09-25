@@ -8,9 +8,12 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class conexion {
-
-    private static final String URL = "jdbc:mysql://switchyard.proxy.rlwy.net:51254/sys";
+/**
+ *
+ * @author Pc
+ */
+public class conexionbd {
+     private static final String URL = "jdbc:mysql://switchyard.proxy.rlwy.net:51254/sys";
     private static final String USER = "root";
     private static final String PASS = "JTuKQjVAmaHRdZVsVwrwiggkoVwYpIql";
 
@@ -26,4 +29,5 @@ public class conexion {
             e.printStackTrace();
         }
     }
+    
 }
